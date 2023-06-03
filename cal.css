@@ -1,0 +1,293 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Ineria Serif, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #ADE8F4;
+}
+
+nav {
+    background-color: #3F37C9;
+    opacity: 85%;
+    height: 54px;
+    font-size: 24px;
+    width: 100%;
+
+}
+
+
+label.headcal {
+    color: white;
+    width: 140px;
+    height: 34px;
+    line-height: 55px;
+    padding: 0 100px;
+    font-weight: lighter;
+    font-family: Inria Serif, Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+}
+
+nav ul {
+    cursor: pointer;
+    float: right;
+    padding-right: 100px;
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+    line-height: 55px;
+    color: whitesmoke;
+}
+
+.circle1 {
+    width: 322px;
+    height: 275px;
+    background: #4CC9F0;
+    border-radius: 50%;
+    position: absolute;
+    margin: 98px 600px 459px 350px;
+}
+
+.circle2 {
+    width: 322px;
+    height: 275px;
+    background: #4CC9F0;
+    border-radius: 50%;
+    position: absolute;
+    margin: 300px 280px 240px 560px;
+}
+
+
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+
+}
+
+.item-center {
+    align-items: center;
+}
+
+.container {
+    width: 419px;
+    height: 610px;
+    background: linear-gradient(158.38deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.3) 100%);
+    border: 2px solid #FFFFFF;
+    box-shadow: 20px 20px 20px 2px rgba(0, 31, 84, 0.3);
+    backdrop-filter: blur(10px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 15px;
+    margin: 15px 448px 77px 400px;
+}
+
+.input {
+    width: 419px;
+    height: 140px;
+    background: rgba(255, 255, 255, 0.45);
+    border-radius: 12px 12px 0px 0px;
+    border: none;
+}
+
+.row1 button {
+    padding: 4px 4px 4px 4px;
+    width: 50px;
+    height: 28px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 30px;
+    color: #00296B;
+    margin-top: 28px;
+    border-color: white;
+}
+
+.row1 button:active {
+    background-color: white;
+    color: black;
+}
+
+.sin {
+
+    margin: 0 45px 0 5px;
+}
+
+.cos {
+    margin: 0 45px 0 0;
+}
+
+.tan {
+    margin: 0 45px 0 0;
+}
+
+.deg {
+    margin: 0 5px 0 0;
+}
+
+.row2 button {
+    padding: 4px 4px 4px 4px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 28px;
+    border: none;
+    font-size: 20px;
+    align-items: center;
+}
+
+.row2 button:active {
+    background-color: white;
+    color: black;
+}
+
+.ac,
+.sev,
+.four {
+    background: rgba(255, 255, 255, 0.5);
+    margin: 0 45px 0 5px;
+    color: #00296B;
+}
+
+.del,
+.eig,
+.five {
+    background: rgba(255, 255, 255, 0.5);
+    margin: 0 45px 0 0;
+    color: #00296B;
+}
+
+.divi {
+    background: rgba(255, 255, 255, 0.5);
+    margin: 0 45px 0 0;
+    color: #00296B;
+    font-weight: bolder;
+}
+
+.nin,
+.six {
+    background: rgba(255, 255, 255, 0.5);
+    margin: 0 45px 0 0;
+    color: #00296B;
+}
+
+.mult,
+.min,
+.plus {
+    margin: 0 5px 0 0;
+    background-color: #00A8E8;
+    color: white;
+    font-weight: bold;
+
+}
+
+.row3 button {
+    padding: 4px 4px 4px 4px;
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50%;
+
+    margin-top: 28px;
+    border: none;
+    font-size: 20px;
+    align-items: center;
+}
+
+.row3 button:active {
+    background-color: white;
+    color: black;
+}
+
+.row4 button {
+    padding: 4px 4px 4px 4px;
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50%;
+
+    margin-top: 28px;
+    border: none;
+    font-size: 20px;
+    align-items: center;
+}
+
+.row4 button:active {
+    background-color: white;
+    color: black;
+}
+
+.row5 button {
+    padding: 4px 4px 4px 4px;
+    width: 50px;
+
+
+
+
+    margin-top: 28px;
+    border: none;
+    font-size: 20px;
+    align-items: center;
+}
+
+.row5 button:active {
+    background-color: white;
+    color: black;
+}
+
+.one {
+    margin: 0 45px 0 5px;
+    background: rgba(255, 255, 255, 0.5);
+    color: #00296B;
+    border-radius: 50%;
+    height: 50px;
+}
+
+.two {
+    margin: 0 45px 0 0;
+    background: rgba(255, 255, 255, 0.5);
+    color: #00296B;
+    border-radius: 50%;
+    height: 50px;
+}
+
+.three {
+    margin: 0 45px 0 0;
+    background: rgba(255, 255, 255, 0.5);
+    color: #00296B;
+    border-radius: 50%;
+    height: 50px;
+}
+
+.equal {
+    display: inline-block;
+}
+
+.dot {
+    margin: 0 5px 0 0;
+    background: #00A8E8;
+    border-radius: 50%;
+    color: white;
+    height: 50px;
+}
+
+.row6 button {
+    padding: 4px 4px 4px 4px;
+    width: 150px;
+    margin: 28px 20px 0 10px;
+    border: 1px solid white;
+    font-size: 20px;
+    border-radius: 15px;
+    background: #00A8E8;
+    color: white;
+}
+
+.row6 button:active {
+    background: whitesmoke;
+    color: black;
+}
